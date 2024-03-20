@@ -1,6 +1,7 @@
 #!/bin/sh -e
 
 echo "starting..."
+mkdir /home/pi/.config/autostart
 mv autovlc.desktop /home/pi/.config/autostart/
 
 git clone https://github.com/goodtft/LCD-show.git
