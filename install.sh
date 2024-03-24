@@ -3,8 +3,9 @@
 echo "starting..."
 
 echo "copying autovlc.desktop to autostart directory..."
-mkdir /home/pi/.config/autostart
-cp autovlc.desktop /home/pi/.config/autostart/autovlc.desktop
+rm -rf /home/pi/.config/autostart
+mkdir /home/tt/.config/autostart
+cp autovlc.desktop /home/tt/.config/autostart/autovlc.desktop
 
 echo "marking vlcstartup.sh as executable..."
 chmod +x vlcstartup.sh
