@@ -1,3 +1,3 @@
 [Desktop Entry]
 Type=Application
-Exec=/bin/sh -c 'sleep 10 && /home/pi/pi_video_blacker/start_blacker.sh'
+Exec=/bin/sh -c 'sleep 10 && /home/pi/pi_video_blacker/blacker_startup.sh'
