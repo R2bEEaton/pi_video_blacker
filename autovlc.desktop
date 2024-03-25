@@ -1,3 +1,0 @@
-[Desktop Entry]
-Type=Application
-Exec=/bin/sh -c 'sleep 10 && /home/pi/pi_video_blacker/vlcstartup.sh'
